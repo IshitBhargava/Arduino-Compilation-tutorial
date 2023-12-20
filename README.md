@@ -110,3 +110,18 @@ Anode: 14
 Cathode: GND
 
 _____________________________________________________________________________________________________________________________________________________________________________
+
+**Upload the Code:**
+
+Step 1: Download required libraries
+Step 2: Connect your Arduino board via USB or Wi-fi (if supported)
+Step 3: Select you COM port and arduino board
+Step 4: Press on "upload code" button
+
+____________________________________________________________________________________________________________________________
+
+**Troubleshooting**
+
+View the troubleshooting file for more information.
+
+
