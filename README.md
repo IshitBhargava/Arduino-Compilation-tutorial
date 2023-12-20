@@ -16,6 +16,7 @@ In this project, we will operate things like servos, lcd, stepper motors, rgb le
 1x gas sensor MQ-135
 5x LED or light emitting diode
 1x/2x breadboard
+1x LCD I2c 1602
 
 ___________________________________________________________________________________________________________________________________________________________________________________
 
@@ -53,3 +54,59 @@ Echo: 3
 VCC: IOREF
 GND: GND
 Signal: A3
+
+*Touch Sensor:*
+VCC: 3.3V 
+GND: GND
+Signal: A2
+
+*Stepper motor:*
+Common GND: GND
+Coil 1: 8
+Coil 2: 10
+Coil 3: 11
+Coil 4: 12
+
+*Potentiometer:*
+Terminal 1: GND
+Terminal 2: 5v
+Wiper: A9
+
+*Water level sensor:*
+VCC: IOREF
+GND: GND
+Signal: A8
+
+*MQ-135:*
+VCC: IOREF 
+GND: GND
+Do: Not needed
+Ao: A11
+
+*LCD:*
+VCC: 5v
+GND: GND
+SDA: SDA or A4
+SCL: SCL or A5
+
+*led1:* 
+Anode: Joystick SW
+Cathode: GND 
+
+*led2:*
+Anode: 4
+Cathode: GND
+
+*led3:*
+Anode: 4
+Cathode: GND
+
+*led4:*
+Anode: 5
+Cathode: GND
+
+*led5:*
+Anode: 14
+Cathode: GND
+
+_____________________________________________________________________________________________________________________________________________________________________________
